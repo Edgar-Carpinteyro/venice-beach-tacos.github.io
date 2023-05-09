@@ -1,0 +1,58 @@
+body {
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+
+}
+
+
+h1 {            /* Title */
+    text-align: center;
+    color: brown;
+    text-shadow: yellow 2px 2px;
+}
+
+.center {               /*Center the image and contact form*/
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+div {                      /*Styles the Home, About, Contact pages*/
+    background-color: rgb(252, 199, 199); 
+    border-style: solid; 
+    border-color: brown; 
+    border-radius: 5px;
+    text-align: center;
+    word-spacing: 100px;        /*Adds space between home, about, contact*/ 
+}
+
+p {                              /*Styles the paragraphs*/
+    background-color: palegreen;
+    border-style:groove;
+    border-color: brown;
+    border-radius: 5px;     /*Rounds the corners of the box*/
+    line-height: 2;         /*Adds space between lines*/
+}
+
+#large-paragraph {       /*Increase the font of text in paragraphs*/ 
+    font-size: 22px;
+}
+
+table {
+    width: 50%;  /*changes how wide the table is*/
+    margin: auto;   /*centers the table*/
+}
+
+th, td {            /*group selectors*/
+    padding: 10px;  /*space in each cell*/
+    text-align: left;
+    border-bottom: 1px dotted black;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(240, 238, 193);
+}
+
+tr:hover {
+    background-color: yellowgreen;
+}
